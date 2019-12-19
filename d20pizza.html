@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Paint</title>
+    <title>Pizza</title>
     <link rel="stylesheet" href="d20pizza.css">
     
     <!-- <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
@@ -13,27 +13,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type='text/css'> -->
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/e19745ca4f.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-   <div class="painter">
-       <div class="canvas"></div>
-       <div class="buttons">
-           <div class="tools">
-           <button type="button" class="pencil"><i class="fas fa-pencil-alt"></i></button>
-           </div>
-           <div class="colors">
-           <button type="button>" class="color black"></button>
-           <button type="button>" class="color red"></button>
-           <button type="button>" class="color green"></button>
-           <button type="button>" class="color blue"></button>
-           <button type="button>" class="color purple"></button>
-            </div>
-       </div>
-   </div>
+    <div class="container">
+        <div class="side-menu">
+            <ul>
+                <li id="new">New pizza</li>
+                <li id="load">Load pizza</li>
+                <li id="save">Save pizza</li>
+            </ul>
+            <h3> toppings</h3>
+            <ul>
+                <li class="cover-bg" id="onions">Onions</li>
+                <li class="cover-bg" id="olives">Olives</li>
+                <li class="cover-bg"id="mushrooms">Mushrooms</li>
+            </ul>
+        </div>
+    </div>
   
     
         <script src="d20pizza.js"></script>
